@@ -13,5 +13,5 @@ test("Validar por lo menos un producto x paquete",()=>{
 })
 
 test("Validar urgencia",()=>{
-    expect(()=>{var paquete=new Paquete("Local","Destino",[],-3);}).toThrow("La urgencia del paquete debe ser mayor a cero");
+    expect(()=>{var paquete=new Paquete("Local","Destino",[["Remera",3]],-3);}).toThrow("La urgencia del paquete debe ser mayor a cero");
 })
