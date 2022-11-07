@@ -6,3 +6,7 @@ test("Crear Paquete",()=>{
     expect(paquete.destino).toBe("Destino");
     expect(paquete.productos.length).toBe(2);
 })
+
+test("Validar por lo menos un producto x paquete",()=>{
+    expect(()=>{var paquete=new Paquete("Destino",[]);}).toThrow("Cada paquete debe tener por lo menos un producto");
+})
