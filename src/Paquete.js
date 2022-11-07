@@ -1,8 +1,9 @@
 
 
-function Paquete(destino){
+function Paquete(destino,productos){
     this.destino=destino;
-    
+    this.productos=productos;
+
     this.ubicacion=function(){
         return "Local";
     }
