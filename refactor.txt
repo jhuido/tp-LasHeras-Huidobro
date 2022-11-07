@@ -3,3 +3,5 @@
 1) cambiamos que en vez de que comience diciendo
 que esta en Local, pase como parametro la ubicacion actual, 
 Entonces la funcion ubicaion la podemos borrar.
+
+2) crear una funcion validarParametros en paquete
